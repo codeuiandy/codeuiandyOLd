@@ -1,0 +1,106 @@
+
+
+.hero-wrap{
+    position: relative;
+}
+
+.section-one{
+    background-image: url(../Assets/wave2.png) ,url(../Assets/wave.png);
+    background-size: cover;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-position-y: 120px;
+    background-position-x: -490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 110px;
+  
+}
+
+.hero-section{
+    /* position: absolute;   */
+    /* background-color:#9100ff ;  */
+    position: relative;
+    top: -60px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+}
+
+.section-two{
+   background-color:#9100ff ; 
+}
+
+.section-two img{
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 700px;
+    background-color:#9100ff ; 
+    margin-bottom: 0;
+}
+
+.section-one span{
+    margin-bottom: 10px;
+}
+
+.section-one span:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-one span:nth-child(2){
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #9100ff;
+    font-weight: 500;
+}
+
+.section-one span:nth-child(3){
+    font-size: 18px;
+   
+  
+}
+
+.section-one span:nth-child(4){
+    font-size: 18px;
+   
+  
+}
+
+.callToActions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.callToActions button{
+   width: 120px;
+   margin-top: 20px;
+   margin-left: 20px;
+   cursor: pointer;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+}
+
+.callToActions button:nth-child(1){
+    background-color: #9100ff;
+    color: white;
+    font-weight: 600;
+    outline: none;
+}
+
+.callToActions button:nth-child(2){
+    border:1px solid #9100ff;
+    color: #9100ff;
+    font-weight: 600;
+    background-color: transparent;
+    outline: none;
+}
+
+/* .devSt{
+    color: #9100ff;  
+} */

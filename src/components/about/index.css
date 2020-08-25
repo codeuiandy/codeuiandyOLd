@@ -1,0 +1,79 @@
+.about-wrap-sec{
+    background-color: #F3F1FF;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  
+   
+}
+
+.aboutMeText {
+width: 500px;
+padding-right: 40px;
+}
+
+.aboutMeText h1{
+    color: #9100ff;
+    font-size: 25px;
+}
+
+.aboutMeText h3{
+    font-size: 17px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.aboutCTA{
+    width: 300px;
+    margin: auto;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns:
+     1fr 1fr 1fr;
+     grid-template-rows: 217px;
+      height: 530px;
+      justify-content: center;
+      align-items: center;
+      width: 60vw;
+      margin: auto;
+}
+
+.projects-grid div{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.powers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.powers h1{
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  /* padding-top: 20px; */
+  font-size: 25px;
+  color: #9100ff;
+}
+
+.powers h3{
+    margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  
+ }
