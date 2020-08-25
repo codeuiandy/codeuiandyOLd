@@ -3,7 +3,7 @@ import About from './index.css'
 import AndyImg from '../Assets/about_pic.png'
 import ABOUT from '../Assets/ABOUT.png'
 import ScrollAnimation from 'react-animate-on-scroll';
-
+import "animate.css/animate.min.css";
 export default class about extends Component {
     render() {
         return (
@@ -16,23 +16,21 @@ export default class about extends Component {
         <div className="aboutImg2">
             <img src={AndyImg} alt=""/>
         </div>
-        <ScrollAnimation animateIn= "bounceIn" duration={15}>
-            <div className="aboutMeText">
-                <h1> Who Is Code Ui Andy?</h1>
-                <h3>Lorem ipsum dolor sit amet con
-                    sectetur adipisicing elit. Prov
-                    ident eligendi error nesciunt de
-                    serunt culpa, nemo neque tempori
-                    bus vitae adipisci animi et, enim dolores reprehende
-                    rit voluptatibus, libero ratione aliquam sint nobis
-                    .</h3>
-                    <div className="callToActions aboutCTA">
-                        <button>More Info</button>
+        <div className="aboutMeText">
+            <h1> Who Is Code Ui Andy?</h1>
+            <h3>Lorem ipsum dolor sit amet con
+                sectetur adipisicing elit. Prov
+                ident eligendi error nesciunt de
+                serunt culpa, nemo neque tempori
+                bus vitae adipisci animi et, enim dolores reprehende
+                rit voluptatibus, libero ratione aliquam sint nobis
+                .</h3>
+                <div className="callToActions aboutCTA">
+                    <button>More Info</button>
 
-                        <button>Download CV</button>
-                    </div>
-            </div>
-        </ScrollAnimation>
+                    <button>Download CV</button>
+                </div>
+        </div>
                 </div>
               
                 <div className="powers">
@@ -44,10 +42,6 @@ export default class about extends Component {
                 <div className="projects">
 
                      <div className="centerGrid">
-                     <ScrollAnimation animateIn='flipInY' 
-                      duration={500}
-                      delay={4000}
-                      >
                        <div className="projects-grid">
                            
                         <div></div>
@@ -56,9 +50,7 @@ export default class about extends Component {
                         <div></div>
                         <div></div>
                         <div></div>
-                    </div>
-                    </ScrollAnimation>
-                    </div>
+                    </div></div>
                     
                 </div>
                 

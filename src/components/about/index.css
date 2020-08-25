@@ -1,7 +1,7 @@
 .about-wrap-sec{
     background-color: #F3F1FF;
     width: 100vw;
-    height: 400px;
+    height: 463px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,11 +36,11 @@ padding-right: 40px;
     display: grid;
     grid-template-columns:
      1fr 1fr 1fr;
-     grid-template-rows: 217px;
-      height: 530px;
+     grid-template-rows: 210px;
+      height: 516px;
       justify-content: center;
       align-items: center;
-      width: 60vw;
+      width: 57vw;
       margin: auto;
 }
 

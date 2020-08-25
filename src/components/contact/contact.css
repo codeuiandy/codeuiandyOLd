@@ -1,0 +1,36 @@
+.contact-section{
+    background-color: #F3F1FF;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+}
+
+.main-contact{
+    /* width: 50vw; */
+}
+
+.main-contact form{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 55vw;
+margin: auto;
+}
+
+.main-contact form input{
+
+    width: 350px;
+
+    }post launch
+    post launch in progress
+
+    .main-contact form textarea{
+        height:  200px !important;
+        width: 370px;
+    
+        }
+    
+
