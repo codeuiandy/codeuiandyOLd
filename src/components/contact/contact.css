@@ -24,8 +24,12 @@ margin: auto;
 
     width: 350px;
 
-    }post launch
-    post launch in progress
+    }
+
+    .main-contact form label{
+font-weight: 600;
+    
+        }
 
     .main-contact form textarea{
         height:  200px !important;
@@ -33,4 +37,6 @@ margin: auto;
     
         }
     
+
+/* ANIMATION SECTION */
 

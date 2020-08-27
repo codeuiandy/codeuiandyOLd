@@ -32,7 +32,7 @@ export default class contact extends Component {
 
                    <div className="sectionForm1">
       <div class="form-group">
-    <label for="exampleInputEmail1">InputSubject</label>
+    <label for="exampleInputEmail1">Message</label>
     <textarea type="Text" class="form-control" id="exampleInputText1" />
    
   </div>    

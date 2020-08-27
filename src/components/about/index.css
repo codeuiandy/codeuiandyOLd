@@ -34,17 +34,72 @@ padding-right: 40px;
 
 .projects-grid{
     display: grid;
-    grid-template-columns:
-     1fr 1fr 1fr;
+    /* grid-template-columns:
+     1fr 1fr 1fr; */
+
+     grid-template-areas: "box1 box2 box3"
+                             "box4 box5 box6"
+     ;
      grid-template-rows: 210px;
       height: 516px;
       justify-content: center;
       align-items: center;
       width: 57vw;
       margin: auto;
+      justify-content: space-between;
+      animation: swapBox 500ms ease-in infinite;
 }
 
-.projects-grid div{
+@keyframes swapBox{
+    0%{
+        grid-template-areas: "box6 box5 box4"
+        "box3 box2 box1"
+; 
+    }
+
+    100%{
+        grid-template-areas: "box6 box5 box4"
+                             "box3 box2 box1"
+     ; 
+    }
+}
+
+.projects-grid .box1{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects-grid .box2{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects-grid .box3{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects-grid .box4{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects-grid .box5{
+    background-color: #CCC3E1;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects-grid .box6{
     background-color: #CCC3E1;
     width: 250px;
     height: 250px;

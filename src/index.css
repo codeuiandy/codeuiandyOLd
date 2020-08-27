@@ -15,3 +15,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button:hover{
+animation:btnActive 500ms ease-in infinite;
+filter: drop-shadow(10px 20px 10px rgba(128, 128, 128, 0.432));
+}
+
+
+@keyframes btnActive{
+0%{
+
+}
+100%{
+  border-top: 1px solid green;
+  border-left: 1px solid orange;
+  color:pink;
+}
+}

@@ -16,6 +16,7 @@ export default class about extends Component {
         <div className="aboutImg2">
             <img src={AndyImg} alt=""/>
         </div>
+  
         <div className="aboutMeText">
             <h1> Who Is Code Ui Andy?</h1>
             <h3>Lorem ipsum dolor sit amet con
@@ -26,7 +27,7 @@ export default class about extends Component {
                 rit voluptatibus, libero ratione aliquam sint nobis
                 .</h3>
                 <div className="callToActions aboutCTA">
-                    <button>More Info</button>
+                    <button className="animateBtn"> More Info</button>
 
                     <button>Download CV</button>
                 </div>
@@ -44,12 +45,12 @@ export default class about extends Component {
                      <div className="centerGrid">
                        <div className="projects-grid">
                            
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div className="box1"></div>
+                        <div className="box2"></div>
+                        <div className="box3"></div>
+                        <div className="box4"></div>
+                        <div className="box5"></div>
+                        <div className="box6"></div>
                     </div></div>
                     
                 </div>
